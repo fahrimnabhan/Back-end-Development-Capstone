@@ -31,3 +31,6 @@ coverage==6.3.2
 
 # Utilities
 httpie==3.2.1
+
+bson==0.5.10
+pymongo>=3.12
