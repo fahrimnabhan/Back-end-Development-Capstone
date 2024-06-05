@@ -13,16 +13,16 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name="concert",
             name="city",
-            field=models.CharField(default="unknown", max_length=255),
+            field=models.CharField(max_length=255),
         ),
         migrations.AlterField(
             model_name="concert",
             name="concert_name",
-            field=models.CharField(default="unknown", max_length=255),
+            field=models.CharField(max_length=255),
         ),
         migrations.AlterField(
             model_name="concert",
             name="duration",
-            field=models.IntegerField(default=0),
+            field=models.IntegerField(),
         ),
     ]

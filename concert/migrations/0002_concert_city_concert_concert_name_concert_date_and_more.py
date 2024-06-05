@@ -14,13 +14,13 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name="concert",
             name="city",
-            field=models.CharField(default="unknown", max_length=255),
+            field=models.CharField(max_length=255),
             preserve_default=False,
         ),
         migrations.AddField(
             model_name="concert",
             name="concert_name",
-            field=models.CharField(default="unknown", max_length=255),
+            field=models.CharField(max_length=255),
             preserve_default=False,
         ),
         migrations.AddField(
@@ -31,7 +31,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name="concert",
             name="duration",
-            field=models.IntegerField(default="unknown"),
+            field=models.IntegerField(),
             preserve_default=False,
         ),
     ]
